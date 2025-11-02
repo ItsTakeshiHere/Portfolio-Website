@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Hi! I'm Rahul Bhagat</h1>
+    <p>Full Stack Developer | UI/UX Designer | Video Editor</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="theme-toggle" onclick="toggleTheme()">🌙</div>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <p>I'm a passionate Full Stack Developer with strong skills in building dynamic, responsive, and user-friendly web applications. With experience in HTML, CSS, JavaScript, React.js, Node.js, and UI/UX Design, I enjoy transforming creative ideas into functional projects. My goal is to write clean, optimized code while ensuring great user experiences. Apart from coding, I also have hands-on experience in video editing and design tools like Figma which helps me bring a complete creative vision to life. I'm always eager to learn new technologies and collaborate on exciting projects that make a real impact.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="Gallery/Picture-1.png" alt="Project 1">
+        <h3>Project One</h3>
+        <p>A responsive e-commerce website built with HTML, CSS, and JavaScript.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="Gallery/Picture-2.jpg" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>A task management app with React and Node.js backend.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="Gallery/Picture-3.png" alt="Project 3">
+        <h3>Project Three</h3>
+        <p>A portfolio website showcasing my design skills.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="Gallery/Picture-4.jpg" alt="Project 4">
+        <h3>Project Four</h3>
+        <p>A real-time chat application built with React.js and Firebase.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="Gallery/Picture-5.png" alt="Project 5">
+        <h3>Project Five</h3>
+        <p>An AI-powered blog generator using OpenAI API and Next.js.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="Gallery/Picture-6.jpg" alt="Project 6">
+        <h3>Project Six</h3>
+        <p>A weather dashboard app using HTML, CSS, JavaScript, and OpenWeatherMap API.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React.js</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Figma</div>
+    </div>
+  </section>
+
+ <section id="contact">
+    <h2>Contact Me</h2>
+<form action="https://formsubmit.co/r.954704@gmail.com" method="POST" class="contact-form">
+  <!-- Disable Captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Redirect after successful submit -->
+  <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+  <!-- Email subject -->
+  <input type="hidden" name="_subject" value="New Portfolio Contact!">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025. All rights reserved.</p>
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.figma.com" target="_blank" aria-label="Figma"><i class="fab fa-figma"></i></a>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
